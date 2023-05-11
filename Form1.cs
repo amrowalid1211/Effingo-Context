@@ -6,11 +6,12 @@ namespace Effingo_Context
     {
         public Form1(string[] main)
         {
-            //InitializeComponent();
+            InitializeComponent();
             //var FolderPath = Directory.GetCurrentDirectory();
             this.Hide();
             moveFiles(main);
         }
+
 
         private void moveFiles(string[] main)
         {

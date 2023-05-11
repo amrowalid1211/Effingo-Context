@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Effingo Context", "Effingo Context.csproj", "{2A9FB8F5-C817-4B3A-BF3A-5BDAE097F87A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "effingoMoveFiles", "effingoMoveFiles\effingoMoveFiles.csproj", "{2EA5AB7B-2D67-44EE-A615-DB8165A6EB7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "effingoMoveFiles", "..\effingoMoveFiles\effingoMoveFiles.csproj", "{A5C9B692-D4E7-4A62-A809-CCB03A369CDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "setEffingoMenu", "setEffingoMenu\setEffingoMenu.csproj", "{8226FF9D-C12D-490F-9830-82CE90AE1DCE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2A9FB8F5-C817-4B3A-BF3A-5BDAE097F87A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2A9FB8F5-C817-4B3A-BF3A-5BDAE097F87A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2A9FB8F5-C817-4B3A-BF3A-5BDAE097F87A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2A9FB8F5-C817-4B3A-BF3A-5BDAE097F87A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A5C9B692-D4E7-4A62-A809-CCB03A369CDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A5C9B692-D4E7-4A62-A809-CCB03A369CDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A5C9B692-D4E7-4A62-A809-CCB03A369CDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A5C9B692-D4E7-4A62-A809-CCB03A369CDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EA5AB7B-2D67-44EE-A615-DB8165A6EB7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EA5AB7B-2D67-44EE-A615-DB8165A6EB7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EA5AB7B-2D67-44EE-A615-DB8165A6EB7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EA5AB7B-2D67-44EE-A615-DB8165A6EB7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8226FF9D-C12D-490F-9830-82CE90AE1DCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8226FF9D-C12D-490F-9830-82CE90AE1DCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8226FF9D-C12D-490F-9830-82CE90AE1DCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8226FF9D-C12D-490F-9830-82CE90AE1DCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

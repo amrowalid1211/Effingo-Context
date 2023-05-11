@@ -10,10 +10,14 @@ Main(args);
 
 static void moveFiles(string[] main)
 {
+    //for(int i = 0; i < main.Length; i++)
+    //{
+    //    File.AppendAllText("hhh.txt",main[i]+"\n");
+    //}
     try
     {
-        string targetFolder = File.ReadAllText("defaultPath.txt");
-        for (int i = 0; i < main.Length; i++)
+        string targetFolder = main[0];
+        for (int i = 1; i < main.Length; i++)
         {
             //MessageBox.Show(i + " " + Path.GetExtension(main[i]));
             if(File.Exists(main[i]) && Path.GetExtension(main[i])==".pdf")
@@ -33,6 +37,6 @@ static void moveFiles(string[] main)
     }
     catch (Exception ex)
     {
-        //MessageBox.Show(File.ReadAllText(ex.Message));
+        //File.AppendAllText("hhh.txt", ex.Message + "\n");
     }
 }
