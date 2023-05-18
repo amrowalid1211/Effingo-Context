@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\effingoMoveFiles\effingoMoveFiles.csproj" />
+    <ProjectReference Include="..\FileMessageBox\FileMessageBox.csproj" />
   </ItemGroup>
 
 </Project>

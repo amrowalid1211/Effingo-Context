@@ -32,8 +32,14 @@ namespace setEffingoMenu
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if (textBox1.Text == "")
+            {
+                MessageBox.Show("Please select a folder path");
+                return;
+            }
+
             RegistryKey rgk = Registry.CurrentUser.CreateSubKey(MenuFileName);
-            rgk.SetValue("", "Copy to Effingo");
+            rgk.SetValue("", "Send to Effingo for Processing");
             rgk.SetValue("Icon", Directory.GetCurrentDirectory() + "\\effingo.ico");
             rgk.SetValue("MultiSelectModel", "Player");
             rgk = Registry.CurrentUser.CreateSubKey(MenuFileName + "\\command");
@@ -45,7 +51,7 @@ namespace setEffingoMenu
             foreach (string key in keys)
             {
                 rgk = Registry.ClassesRoot.CreateSubKey(key);
-                rgk.SetValue("", "Copy to Effingo");
+                rgk.SetValue("", "Send to Effingo for Processing");
                 rgk.SetValue("Icon", Directory.GetCurrentDirectory() + "\\effingo.ico");
                 rgk.SetValue("MultiSelectModel", "Player");
                 rgk = Registry.ClassesRoot.CreateSubKey(key+"\\command");
